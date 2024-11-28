@@ -1,9 +1,11 @@
-import argparse
-import logging
 from src.profile_generator.generator import ProfileGenerator
 from src.database.db_control import DatabaseControl
-import json
-from datetime import datetime
+from src.transform.transform import Transform
+from dotenv import load_dotenv
+import os
+import threading
+import argparse
+import logging
 
 # Set up logging
 logging.basicConfig(
@@ -15,45 +17,32 @@ logger = logging.getLogger(__name__)
 
 def setup_database():
     """Initialize database and create necessary structures."""
-    db = DatabaseControl()
-    # Create tables and trigger
-    db.setup_json_generation()
-    return db
 
-def save_json_to_file(profile_data: dict):
-    """
-    Saves a profile JSON to a file in "results" directory.
+    load_dotenv()
 
-    Args:
-        profile_data: Dictionary containing the profile data
-    """
+    db_params = {
+        "host": os.getenv("DB_HOST"),
+        "user": os.getenv("DB_USER"),
+        "password": os.getenv("DB_PASSWORD"),
+        "dbname": os.getenv("DB_NAME")
+    }
 
-    output_dir = 'results'
+    db_control = DatabaseControl(db_params)
 
-    # Generate filename using customer ID and timestamp
-    customer_id = profile_data['identification']['customerId']
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    filename = f"profile_{customer_id}_{timestamp}.json"
+    return db_control
 
-    # Create full file path
-    file_path = f"{output_dir}/{filename}"
-
-    # Save JSON with proper formatting
-    with open(file_path, 'w', encoding='utf-8') as f:
-        json.dump(profile_data, f, indent=2, ensure_ascii=False)
-
-    return file_path
-
-def generate_and_store_profiles(db: DatabaseControl, generator: ProfileGenerator, num_profiles: int):
+def generate_and_store_profiles(db_control: DatabaseControl, generator: ProfileGenerator, num_profiles: int):
     """Generate profiles and store them in database."""
     for (profile, delay) in generator.generate_profiles(num_profiles):
-        inserted_profile = db.insert_profile(profile)
+        inserted_profile = db_control.insert_profile(profile)
 
         if inserted_profile:
-            # Get and log the JSON version of the profile
-            latest_json = db.get_latest_profile()
-            filepath = save_json_to_file(latest_json)
-            logger.info(f"Profile generated and stored to: '{filepath}' with delay: {delay:.2f}s")
+            # Gets last entry from db, but isn't used for generation of json files
+            # Because, why sync saving json files with this? We may be getting entries from somewhere else too.
+            # We need to listen for entries.
+
+            latest_json = db_control.get_latest_profile()
+            logger.info(f"Profile generated with delay: {delay:.2f}s")
         else:
             logger.error("Failed to insert profile")
 
@@ -73,11 +62,20 @@ def main():
         logger.info("Starting profile generation process...")
 
         # Initialize components
-        db = setup_database()
+        db_control = setup_database()
+
+        # Initialize transformation
+        transform_json = Transform()
+
+        listener_thread = threading.Thread(target=db_control.start_listening,
+                                           args=(transform_json.save_json_to_file,),
+                                           daemon=True)
+        listener_thread.start()
+
         generator = ProfileGenerator()
 
         # Generate and store profiles
-        generate_and_store_profiles(db, generator, args.num_profiles)
+        generate_and_store_profiles(db_control, generator, args.num_profiles)
 
         logger.info("Profile generation completed successfully")
 

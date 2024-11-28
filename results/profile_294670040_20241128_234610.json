@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": {
+      "fullName": "Jay Hensley",
+      "lastName": "Hensley",
+      "firstName": "Jay"
+    },
+    "gender": "male",
+    "birthYear": 1997,
+    "birthDayAndMonth": "04-19"
+  },
+  "loyalty": {
+    "points": 702229,
+    "joinDate": "2018-09-11",
+    "loyaltyID": 2201294670040
+  },
+  "consents": {
+    "collect": {
+      "val": "n"
+    },
+    "marketing": {
+      "preferred": "sms"
+    }
+  },
+  "createDate": "2024-11-28T23:46:10.613943",
+  "homeAddress": {
+    "city": "Port Mariaville",
+    "country": "United States",
+    "street1": "064 Samantha Stream",
+    "postalCode": "70819",
+    "countryCode": "US"
+  },
+  "mobilePhone": {
+    "number": "505-424-1295x0464"
+  },
+  "testProfile": "true",
+  "userAccount": {
+    "ID": "294670040"
+  },
+  "personalEmail": {
+    "address": "jayhensley@example.com"
+  },
+  "identification": {
+    "email": "jayhensley@example.com",
+    "loyaltyId": 2201294670040,
+    "customerId": "294670040",
+    "phoneNumber": "505-424-1295x0464"
+  },
+  "individualCharacteristics": {
+    "core": {
+      "age": 27,
+      "favouriteCategory": "Kids",
+      "favouriteSubCategory": "Clothing"
+    },
+    "retail": {
+      "shoeSize": 42,
+      "pantsSize": "M",
+      "shirtSize": "M",
+      "favoriteColor": "Green"
+    }
+  }
+}

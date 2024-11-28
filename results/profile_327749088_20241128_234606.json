@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": {
+      "fullName": "Bonnie Reed",
+      "lastName": "Reed",
+      "firstName": "Bonnie"
+    },
+    "gender": "male",
+    "birthYear": 1960,
+    "birthDayAndMonth": "10-13"
+  },
+  "loyalty": {
+    "points": 469834,
+    "joinDate": "2019-12-31",
+    "loyaltyID": 2201327749088
+  },
+  "consents": {
+    "collect": {
+      "val": "n"
+    },
+    "marketing": {
+      "preferred": "email"
+    }
+  },
+  "createDate": "2024-11-28T23:46:06.699519",
+  "homeAddress": {
+    "city": "Espinozaton",
+    "country": "United States",
+    "street1": "4282 Myers Turnpike",
+    "postalCode": "45812",
+    "countryCode": "US"
+  },
+  "mobilePhone": {
+    "number": "+1-630-841-5872x92179"
+  },
+  "testProfile": "true",
+  "userAccount": {
+    "ID": "327749088"
+  },
+  "personalEmail": {
+    "address": "bonniereed@example.com"
+  },
+  "identification": {
+    "email": "bonniereed@example.com",
+    "loyaltyId": 2201327749088,
+    "customerId": "327749088",
+    "phoneNumber": "+1-630-841-5872x92179"
+  },
+  "individualCharacteristics": {
+    "core": {
+      "age": 64,
+      "favouriteCategory": "Kids",
+      "favouriteSubCategory": "School Supplies"
+    },
+    "retail": {
+      "shoeSize": 40,
+      "pantsSize": "L",
+      "shirtSize": "XXL",
+      "favoriteColor": "Purple"
+    }
+  }
+}
