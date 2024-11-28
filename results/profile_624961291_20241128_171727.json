@@ -1,0 +1,62 @@
+{
+  "createDate": "2024-11-28 16:17:27.27.915",
+  "identification": {
+    "customerId": "624961291",
+    "email": "edwardrivera@example.com",
+    "loyaltyId": "2201624961291",
+    "phoneNumber": "+1-731-572-8095x80080"
+  },
+  "individualCharacteristics": {
+    "core": {
+      "age": 35,
+      "favouriteCategory": "Mens",
+      "favouriteSubCategory": "Accessories"
+    },
+    "retail": {
+      "favoriteColor": "Black",
+      "pantsSize": "XS",
+      "shirtSize": "L",
+      "shoeSize": "43"
+    }
+  },
+  "userAccount": {
+    "ID": "624961291"
+  },
+  "loyalty": {
+    "loyaltyID": "2201624961291",
+    "joinDate": "2019-11-26",
+    "points": 342086
+  },
+  "consents": {
+    "collect": {
+      "val": "y"
+    },
+    "marketing": {
+      "preferred": "sms"
+    }
+  },
+  "homeAddress": {
+    "city": "Jimmyfort",
+    "country": "United States",
+    "countryCode": "US",
+    "street1": "8669 Kenneth Knoll Suite 225",
+    "postalCode": "12689"
+  },
+  "mobilePhone": {
+    "number": "+1-731-572-8095x80080"
+  },
+  "person": {
+    "birthDayAndMonth": "06-16",
+    "birthYear": "1989",
+    "name": {
+      "lastName": "Rivera",
+      "fullName": "Edward Rivera",
+      "firstName": "Edward"
+    },
+    "gender": "male"
+  },
+  "personalEmail": {
+    "address": "edwardrivera@example.com"
+  },
+  "testProfile": "true"
+}

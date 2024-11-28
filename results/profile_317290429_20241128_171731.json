@@ -1,0 +1,62 @@
+{
+  "createDate": "2024-11-28 16:17:31.31.249",
+  "identification": {
+    "customerId": "317290429",
+    "email": "andrewmunoz@example.com",
+    "loyaltyId": "2201317290429",
+    "phoneNumber": "+1-813-837-7105"
+  },
+  "individualCharacteristics": {
+    "core": {
+      "age": 22,
+      "favouriteCategory": "Mens",
+      "favouriteSubCategory": "Pants"
+    },
+    "retail": {
+      "favoriteColor": "Pink",
+      "pantsSize": "S",
+      "shirtSize": "XL",
+      "shoeSize": "36"
+    }
+  },
+  "userAccount": {
+    "ID": "317290429"
+  },
+  "loyalty": {
+    "loyaltyID": "2201317290429",
+    "joinDate": "2022-03-22",
+    "points": 255215
+  },
+  "consents": {
+    "collect": {
+      "val": "n"
+    },
+    "marketing": {
+      "preferred": "sms"
+    }
+  },
+  "homeAddress": {
+    "city": "East Tracy",
+    "country": "United States",
+    "countryCode": "US",
+    "street1": "4786 Petty Gardens",
+    "postalCode": "96615"
+  },
+  "mobilePhone": {
+    "number": "+1-813-837-7105"
+  },
+  "person": {
+    "birthDayAndMonth": "06-28",
+    "birthYear": "2002",
+    "name": {
+      "lastName": "Munoz",
+      "fullName": "Andrew Munoz",
+      "firstName": "Andrew"
+    },
+    "gender": "female"
+  },
+  "personalEmail": {
+    "address": "andrewmunoz@example.com"
+  },
+  "testProfile": "true"
+}

@@ -1,0 +1,62 @@
+{
+  "createDate": "2024-11-28 16:17:19.19.306",
+  "identification": {
+    "customerId": "154592930",
+    "email": "johncox@example.com",
+    "loyaltyId": "2201154592930",
+    "phoneNumber": "001-376-829-6512x330"
+  },
+  "individualCharacteristics": {
+    "core": {
+      "age": 49,
+      "favouriteCategory": "Kids",
+      "favouriteSubCategory": "School Supplies"
+    },
+    "retail": {
+      "favoriteColor": "Purple",
+      "pantsSize": "XL",
+      "shirtSize": "XS",
+      "shoeSize": "37"
+    }
+  },
+  "userAccount": {
+    "ID": "154592930"
+  },
+  "loyalty": {
+    "loyaltyID": "2201154592930",
+    "joinDate": "2018-06-16",
+    "points": 989679
+  },
+  "consents": {
+    "collect": {
+      "val": "y"
+    },
+    "marketing": {
+      "preferred": "email"
+    }
+  },
+  "homeAddress": {
+    "city": "Travistown",
+    "country": "United States",
+    "countryCode": "US",
+    "street1": "440 Smith Dale",
+    "postalCode": "45657"
+  },
+  "mobilePhone": {
+    "number": "001-376-829-6512x330"
+  },
+  "person": {
+    "birthDayAndMonth": "10-04",
+    "birthYear": "1975",
+    "name": {
+      "lastName": "Cox",
+      "fullName": "John Cox",
+      "firstName": "John"
+    },
+    "gender": "female"
+  },
+  "personalEmail": {
+    "address": "johncox@example.com"
+  },
+  "testProfile": "true"
+}
