@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76deb05c-6e95-4fc8-9046-ffc0e1208bc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transform/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transform/transform.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/profile_154592930_20241128_171719.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/profile_228602822_20241128_171717.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/profile_317290429_20241128_171731.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/profile_624961291_20241128_171727.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/profile_848493716_20241128_171723.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/retail_profiles.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/db_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/db_control.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
