@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": {
+      "fullName": "Hayley Lee",
+      "lastName": "Lee",
+      "firstName": "Hayley"
+    },
+    "gender": "female",
+    "birthYear": 1959,
+    "birthDayAndMonth": "06-27"
+  },
+  "loyalty": {
+    "points": 470000,
+    "joinDate": "2014-12-09",
+    "loyaltyID": 2201142599938
+  },
+  "consents": {
+    "collect": {
+      "val": "y"
+    },
+    "marketing": {
+      "preferred": "email"
+    }
+  },
+  "createDate": "2024-11-29T14:38:53.065349",
+  "homeAddress": {
+    "city": "West Christopher",
+    "country": "United States",
+    "street1": "8492 Bethany Skyway Apt. 652",
+    "postalCode": "04541",
+    "countryCode": "US"
+  },
+  "mobilePhone": {
+    "number": "001-435-805-1256x8265"
+  },
+  "testProfile": "true",
+  "userAccount": {
+    "ID": "142599938"
+  },
+  "personalEmail": {
+    "address": "hayleylee@example.com"
+  },
+  "identification": {
+    "email": "hayleylee@example.com",
+    "loyaltyId": 2201142599938,
+    "customerId": "142599938",
+    "phoneNumber": "001-435-805-1256x8265"
+  },
+  "individualCharacteristics": {
+    "core": {
+      "age": 65,
+      "favouriteCategory": "Kids",
+      "favouriteSubCategory": "School Supplies"
+    },
+    "retail": {
+      "shoeSize": 36,
+      "pantsSize": "S",
+      "shirtSize": "L",
+      "favoriteColor": "Red"
+    }
+  }
+}

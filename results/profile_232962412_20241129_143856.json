@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": {
+      "fullName": "Paul Mccall",
+      "lastName": "Mccall",
+      "firstName": "Paul"
+    },
+    "gender": "male",
+    "birthYear": 1969,
+    "birthDayAndMonth": "09-15"
+  },
+  "loyalty": {
+    "points": 919863,
+    "joinDate": "2020-05-05",
+    "loyaltyID": 2201232962412
+  },
+  "consents": {
+    "collect": {
+      "val": "y"
+    },
+    "marketing": {
+      "preferred": "sms"
+    }
+  },
+  "createDate": "2024-11-29T14:38:45.5251",
+  "homeAddress": {
+    "city": "Port Laura",
+    "country": "United States",
+    "street1": "4660 Cook Hills",
+    "postalCode": "01054",
+    "countryCode": "US"
+  },
+  "mobilePhone": {
+    "number": "(417)936-0916"
+  },
+  "testProfile": "true",
+  "userAccount": {
+    "ID": "232962412"
+  },
+  "personalEmail": {
+    "address": "paulmccall@example.com"
+  },
+  "identification": {
+    "email": "paulmccall@example.com",
+    "loyaltyId": 2201232962412,
+    "customerId": "232962412",
+    "phoneNumber": "(417)936-0916"
+  },
+  "individualCharacteristics": {
+    "core": {
+      "age": 55,
+      "favouriteCategory": "Kids",
+      "favouriteSubCategory": "Clothing"
+    },
+    "retail": {
+      "shoeSize": 41,
+      "pantsSize": "XS",
+      "shirtSize": "S",
+      "favoriteColor": "Blue"
+    }
+  }
+}

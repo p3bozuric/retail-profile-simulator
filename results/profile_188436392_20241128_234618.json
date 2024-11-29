@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": {
+      "fullName": "Sara Hernandez",
+      "lastName": "Hernandez",
+      "firstName": "Sara"
+    },
+    "gender": "male",
+    "birthYear": 1997,
+    "birthDayAndMonth": "02-16"
+  },
+  "loyalty": {
+    "points": 560161,
+    "joinDate": "2018-07-13",
+    "loyaltyID": 2201188436392
+  },
+  "consents": {
+    "collect": {
+      "val": "n"
+    },
+    "marketing": {
+      "preferred": "sms"
+    }
+  },
+  "createDate": "2024-11-28T23:46:18.214382",
+  "homeAddress": {
+    "city": "Michaelton",
+    "country": "United States",
+    "street1": "38154 Sherry Lodge Suite 337",
+    "postalCode": "25297",
+    "countryCode": "US"
+  },
+  "mobilePhone": {
+    "number": "(574)797-6947x270"
+  },
+  "testProfile": "true",
+  "userAccount": {
+    "ID": "188436392"
+  },
+  "personalEmail": {
+    "address": "sarahernandez@example.com"
+  },
+  "identification": {
+    "email": "sarahernandez@example.com",
+    "loyaltyId": 2201188436392,
+    "customerId": "188436392",
+    "phoneNumber": "(574)797-6947x270"
+  },
+  "individualCharacteristics": {
+    "core": {
+      "age": 27,
+      "favouriteCategory": "Womens",
+      "favouriteSubCategory": "Jackets and Hoodies"
+    },
+    "retail": {
+      "shoeSize": 44,
+      "pantsSize": "S",
+      "shirtSize": "L",
+      "favoriteColor": "Pink"
+    }
+  }
+}

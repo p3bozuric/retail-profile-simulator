@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": {
+      "fullName": "Jamie Hernandez",
+      "lastName": "Hernandez",
+      "firstName": "Jamie"
+    },
+    "gender": "female",
+    "birthYear": 1980,
+    "birthDayAndMonth": "01-25"
+  },
+  "loyalty": {
+    "points": 301320,
+    "joinDate": "2021-09-01",
+    "loyaltyID": 2201131703973
+  },
+  "consents": {
+    "collect": {
+      "val": "n"
+    },
+    "marketing": {
+      "preferred": "sms"
+    }
+  },
+  "createDate": "2024-11-29T14:38:28.862944",
+  "homeAddress": {
+    "city": "New Heatherville",
+    "country": "United States",
+    "street1": "37473 Lawson Mountains Apt. 715",
+    "postalCode": "92950",
+    "countryCode": "US"
+  },
+  "mobilePhone": {
+    "number": "(704)454-9602x206"
+  },
+  "testProfile": "true",
+  "userAccount": {
+    "ID": "131703973"
+  },
+  "personalEmail": {
+    "address": "jamiehernandez@example.com"
+  },
+  "identification": {
+    "email": "jamiehernandez@example.com",
+    "loyaltyId": 2201131703973,
+    "customerId": "131703973",
+    "phoneNumber": "(704)454-9602x206"
+  },
+  "individualCharacteristics": {
+    "core": {
+      "age": 44,
+      "favouriteCategory": "Womens",
+      "favouriteSubCategory": "Jackets and Hoodies"
+    },
+    "retail": {
+      "shoeSize": 36,
+      "pantsSize": "L",
+      "shirtSize": "XL",
+      "favoriteColor": "White"
+    }
+  }
+}

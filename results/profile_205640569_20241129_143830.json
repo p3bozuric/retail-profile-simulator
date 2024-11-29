@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": {
+      "fullName": "Ian Contreras",
+      "lastName": "Contreras",
+      "firstName": "Ian"
+    },
+    "gender": "male",
+    "birthYear": 1964,
+    "birthDayAndMonth": "07-11"
+  },
+  "loyalty": {
+    "points": 738567,
+    "joinDate": "2016-06-11",
+    "loyaltyID": 2201205640569
+  },
+  "consents": {
+    "collect": {
+      "val": "n"
+    },
+    "marketing": {
+      "preferred": "email"
+    }
+  },
+  "createDate": "2024-11-29T14:38:30.424615",
+  "homeAddress": {
+    "city": "Rosetown",
+    "country": "United States",
+    "street1": "2053 Natalie Prairie Apt. 897",
+    "postalCode": "17365",
+    "countryCode": "US"
+  },
+  "mobilePhone": {
+    "number": "001-843-293-2034x975"
+  },
+  "testProfile": "true",
+  "userAccount": {
+    "ID": "205640569"
+  },
+  "personalEmail": {
+    "address": "iancontreras@example.com"
+  },
+  "identification": {
+    "email": "iancontreras@example.com",
+    "loyaltyId": 2201205640569,
+    "customerId": "205640569",
+    "phoneNumber": "001-843-293-2034x975"
+  },
+  "individualCharacteristics": {
+    "core": {
+      "age": 60,
+      "favouriteCategory": "Mens",
+      "favouriteSubCategory": "Pants"
+    },
+    "retail": {
+      "shoeSize": 46,
+      "pantsSize": "XXL",
+      "shirtSize": "XS",
+      "favoriteColor": "Pink"
+    }
+  }
+}

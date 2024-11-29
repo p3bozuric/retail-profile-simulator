@@ -354,11 +354,9 @@ class DatabaseControl:
             logger.info("Started listening for new profiles...")
 
             while True:
-                # Use a shorter timeout to be more responsive
                 if select.select([_conn], [], [], 0.5) == ([], [], []):
                     # Keep connection alive with a simple query
                     cur.execute("SELECT 1")
-                    continue
 
                 _conn.poll()
                 while _conn.notifies:

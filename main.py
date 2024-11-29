@@ -67,11 +67,13 @@ def main():
         # Initialize transformation
         transform_json = Transform()
 
+        # Setup for listening and beginning of listening for notifications from DB
         listener_thread = threading.Thread(target=db_control.start_listening,
-                                           args=(transform_json.save_json_to_file,),
+                                           args=(transform_json.save_json_to_file,), # This function is the callback of start_listening - so it receives json files.
                                            daemon=True)
         listener_thread.start()
 
+        # Setup od generator
         generator = ProfileGenerator()
 
         # Generate and store profiles
@@ -82,7 +84,6 @@ def main():
     except Exception as e:
         logger.error(f"An error occurred: {e}")
         raise
-
 
 if __name__ == "__main__":
     main()

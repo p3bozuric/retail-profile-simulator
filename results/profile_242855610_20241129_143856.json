@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": {
+      "fullName": "Steven Hansen",
+      "lastName": "Hansen",
+      "firstName": "Steven"
+    },
+    "gender": "male",
+    "birthYear": 1979,
+    "birthDayAndMonth": "04-12"
+  },
+  "loyalty": {
+    "points": 241859,
+    "joinDate": "2016-01-22",
+    "loyaltyID": 2201242855610
+  },
+  "consents": {
+    "collect": {
+      "val": "y"
+    },
+    "marketing": {
+      "preferred": "sms"
+    }
+  },
+  "createDate": "2024-11-29T14:38:48.972623",
+  "homeAddress": {
+    "city": "Lauraberg",
+    "country": "United States",
+    "street1": "505 Olson Tunnel Suite 015",
+    "postalCode": "45654",
+    "countryCode": "US"
+  },
+  "mobilePhone": {
+    "number": "(560)374-4256x54871"
+  },
+  "testProfile": "true",
+  "userAccount": {
+    "ID": "242855610"
+  },
+  "personalEmail": {
+    "address": "stevenhansen@example.com"
+  },
+  "identification": {
+    "email": "stevenhansen@example.com",
+    "loyaltyId": 2201242855610,
+    "customerId": "242855610",
+    "phoneNumber": "(560)374-4256x54871"
+  },
+  "individualCharacteristics": {
+    "core": {
+      "age": 45,
+      "favouriteCategory": "Kids",
+      "favouriteSubCategory": "School Supplies"
+    },
+    "retail": {
+      "shoeSize": 41,
+      "pantsSize": "XXL",
+      "shirtSize": "XL",
+      "favoriteColor": "Blue"
+    }
+  }
+}
