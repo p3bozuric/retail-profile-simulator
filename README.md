@@ -1,6 +1,6 @@
 # Profile Simulator for Retail Industry
 
-This is my version of a profile simulator for retail industry. It was built for IBM iX Data Engineering entry test case.
+This is my version of a profile simulator for retail industry.
 This simulates the creation of customer profiles and their ingestion into a marketing system. The application generates random customer profiles, stores them in a PostgreSQL database, and automatically transforms them into JSON format.
 
 ## Features
